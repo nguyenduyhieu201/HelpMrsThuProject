@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using Excel = Microsoft.Office.Interop.Excel;
 
 
-Console.WriteLine("Hello, World!");
 //replace Mrs.Thu with the name or partial name of the workbook
 //replace testData with the name of the worksheet
 var excel = GetOpeningExcelFile("Mrs.Thu", "testData");
